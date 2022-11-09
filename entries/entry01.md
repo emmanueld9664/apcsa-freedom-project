@@ -18,7 +18,13 @@ Some things are similar to what I learned in p5js, such as a canvas. Though less
 I did a weeks worth of research on another game development system, called [Game Maker Studio](https://gamemaker.io/en/gamemaker), which had been used to create the biggest hit of 2015, Undertale. 
 The reason I didn't choose Game Maker Studio was due to the fact that Unity seemed to have more support and articles made about how to use it. Which went more in-depth for what I could find for Game Maker Studio.
 
-
+I am currently within the first two stages of the Engineering Design Process, defining and researching my project.
+Right now, I am simply defining the outline of what I want my project to be, more unique gameplay, story, and a better theme.
+As for research, I looked for what I could base my game off of, and what tools I could use to create this game.
+Currently, I am bettering in two skills, how to learn, and consideration. With how to learn, I have taken the time to learn new tools, like Unity. Which I had never used beforehand, and even learn a little bit of Game Maker Studio through videos. 
+While for consideration, I find myself being able to consider between different options on what my project should be. 
+Previously I even asked my class to help me decide between one large story, or a multi-short story game. 
+Next time, I will be Brainstorming and Planning out my project in more detail, and will likely have come up with a real decision for what my game should be. 
 
 [Next](entry02.md)
 
