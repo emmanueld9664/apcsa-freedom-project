@@ -1,7 +1,6 @@
-# Entry 2
-##### X/X/XX
+# Entry 2: Brainstorming For & Planning the Future.
+##### 12/15/22
 
-Text
 
 [Previous](entry01.md) | [Next](entry03.md)
 
