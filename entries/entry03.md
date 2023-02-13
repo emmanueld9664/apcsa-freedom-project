@@ -9,7 +9,7 @@ Thus, while going through it again, I created a better prototype of my project w
 
 My first step in this soft-reset would be to restart my background and movement section. Which, over a few days, I finished. The background was simple, I only needed to pull the image into the Scene where the camera lied. 
 Next would be to give the image it's own specific layer, which was called the Background Layer. That way, the image would not conflict with any other objects on the screen.
-Here is a [screenshot](image_2023-02-12_221546730.png) of the described action.
+Here is a [screenshot](screenshot.png.png) of the described action.
 
 [Previous](entry02.md) | [Next](entry04.md)
 
