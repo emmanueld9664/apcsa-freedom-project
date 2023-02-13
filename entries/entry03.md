@@ -1,7 +1,13 @@
-# Entry 3
-##### X/X/XX
+# Entry 3: Creating & Testing a Prototype
+##### 2/12/23
 
-Text
+Since my previous Blog Entry, I have taken a few steps back in terms of the ambitious project I have taken into my hands. 
+Previously, I wanted to work on my in-game sprites, while under the impression that I had done enough in my game to warrent them.
+After a serious analysis of where I actually was in my process, I decided my best course of action would be to have a soft reset of sorts.
+I decided to follow my previously introduced [Udemy Course](https://www.udemy.com/course/unity2drpg/) more in-depth, and step by step. There were many things I missed, and many that I needed to improve on.
+Thus, while going through it again, I created a better prototype of my project with the given assets and wish to share my new, refreshed, knowledge and achievements with you now.
+
+My first step in this soft-reset would be to restart my background and movement section. Which, over a few days, I finished. The background was simple, I only needed to pull the image into the 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
