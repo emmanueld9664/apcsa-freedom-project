@@ -112,6 +112,32 @@ There is a showcase of movement in my current prototype, linked below this blog 
 Now that we have finished the basics of movement, we can go into how to animate our Player with the rest of the unused Sprites from our Spliced Sprite Sheet.
 
 ## Movement Work Part 2: Animation Set-Up
+In this section, I will go over how I set up the various different directional sprites and their animations. 
+As stated in previous sections, being able to splice each individual Sprite from a Sprite Sheet is vital to making animations.
+While animations are not exactly needed, understanding how to set up animations in advance is a skill I wished to work on for Beyond my MVP.
+To begin, we must understand that many Sprites are set in different directions: Up, Down, Left, and Right. Each corresponding to a specific movement.
+There are two character states, moving and idle. It is these two states that will help us understand what Sprite goes where and how they function when animating.
+Lets go over the simple stuff first, Idle animation.
+
+Idle animations play only when the Player has made no input, or has stopped creating inputs.
+Thus, an Idle animation should play when the character has not moved. We should also take into account the four cardinal directions, and set up a map for each of these directions on Unity's [animation board](idleAnimationBoard.png).
+When viewing this board, we see an animation duration slider on the right. This is to showcase how long a specific animation will last, in the case of an Idle animation, it will last only 1 second, but continously loop as long as no input is given.
+
+After our Idle animations comes our Movement animations, which is far less simple than inputting still Sprites at 1 second intervals.
+As seen in our [Sprite Sheet](falseSpriteSheet.png), each direction has 4 Sprites for movement. Thus, for each direction, we need to make a new instance of a Movement animation.
+While creating our Movement animations, we separate each Sprite on the duration slider by 5 seconds, ending at 16 seconds. The reason for ending at 16 is so that the final Sprite can last at least 1 second before looping the [animation](moveAnim.png).
+However, there are a few flaws in our design here.
+- The animation ends too fast, cutting past the final movement sprite, and immediately cutting to the beginning.
+- The animation moves too fast, with the animation going at too high of a speed to be viewable.
+Now, we need to fix this. Thankfully, there is a way, and it's surprisingly simple.
+As I stated before, each direction has 4 individual movement Sprites, and our issue is that the animation never lasts on the final Sprite.
+So, we can simply make the final Sprite play twice in the animation, which allows it to last the full 5 seconds we need.
+Next, we simply need to extend the animation. Extending the gap between each Sprite to ten seconds, forces it to take longer in order to finish the animation, and gives it more realism rather than pure speed.
+Here is the final movement [animation board](finalMoveAnim.png).
+After setting up all of the animation boards, for both Idle & Moving animations, we can finally build the connection between animation and input.
+
+## 
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
