@@ -32,7 +32,7 @@ In the image seen previously, Unity has a function called the Sprite Editor. Thi
 The option I needed was to slice the sheet by Cell Size, which would automatically cut around a 16x32 pixel area, to account for the width and height of most individual Sprites.
 After telling the Sprite Editor to commit, it gave me [this](falseSpriteSheet.png).
 
-## Animation Work Part 1: Set-Up
+## Movement Work Part 1: Set-Up
 Now that we, for the most part, have separated each Sprite individually, my next objective was to animate them. To ready myself for when I would need to change or manipulate Sprites based on different parameters.
 I first had to set up movement for my Player, which was relatively simple.
 Your Player is divided into their own parameters and information, in which you can add components.
@@ -108,7 +108,10 @@ public class PlayerController : MonoBehaviour{
 }
 ```
 For example, in this situation imagine our moveSpeed is set to 5. Now, when we press either a Horizontal or Vertical input, that value will multiply 5, and our character will move 5 units per second.
-Here is a showcase of movement in my current [prototype](MovementTest).
+There is a showcase of movement in my current prototype, linked below this blog entry on Google Classroom.
+Now that we have finished the basics of movement, we can go into how to animate our Player with the rest of the unused Sprites from our Spliced Sprite Sheet.
+
+## Movement Work Part 2: Animation Set-Up
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
