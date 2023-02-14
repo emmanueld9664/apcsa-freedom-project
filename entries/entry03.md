@@ -129,6 +129,7 @@ While creating our Movement animations, we separate each Sprite on the duration 
 However, there are a few flaws in our design here.
 - The animation ends too fast, cutting past the final movement sprite, and immediately cutting to the beginning.
 - The animation moves too fast, with the animation going at too high of a speed to be viewable.
+
 Now, we need to fix this. Thankfully, there is a way, and it's surprisingly simple.
 As I stated before, each direction has 4 individual movement Sprites, and our issue is that the animation never lasts on the final Sprite.
 So, we can simply make the final Sprite play twice in the animation, which allows it to last the full 5 seconds we need.
