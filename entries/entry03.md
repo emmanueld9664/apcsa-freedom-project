@@ -32,9 +32,83 @@ In the image seen previously, Unity has a function called the Sprite Editor. Thi
 The option I needed was to slice the sheet by Cell Size, which would automatically cut around a 16x32 pixel area, to account for the width and height of most individual Sprites.
 After telling the Sprite Editor to commit, it gave me [this](falseSpriteSheet.png).
 
+## Animation Work Part 1: Set-Up
+Now that we, for the most part, have separated each Sprite individually, my next objective was to animate them. To ready myself for when I would need to change or manipulate Sprites based on different parameters.
+I first had to set up movement for my Player, which was relatively simple.
+Your Player is divided into their own parameters and information, in which you can add components.
+One of these components is called the Rigidbody2D, which gives the Player model the ability to react to real-time inputs and responses.
+Giving the Player Rigidbody, basically opens it up to Player inputs, such as the wasd or arrow keys respectively.
+However, in order to actually give the Player inputs, we need to set up a C# file.
 
+Setting upp the file is simple, a few clicks and a new file called PlayerController.cs is created and ready to use.
+In order for it to actually manipulate the Player, it has to be added as a Component to the Player.
+Now, we're ready to go in on physically moving the Player in the scene.
+We start by creating a `public Rigidbody2D` variable, which we use to manipulate.
 
+```C#
+public class PlayerController : MonoBehaviour{
 
+    public Rigidbody2D theRB;
+
+    // Start is called before the first frame update
+    void Start(){
+        
+    }
+
+    // Update is called once per frame
+    void Update(){
+    
+    }
+}
+```
+This, `theRB`, variable allows us to manipulate the character's "body" whenever we do a specific action that we code in.
+In order to move, we need to access two outside variables.
+- Velocity: The movement, in units per second of the character.
+- Horizontal & Vertical Inputs: Our X & Y inputs for character direction.
+Unity already has both of these, and both Horizontal and Vertical inputs are already set as either wasd or the arrow keys as mentioned before.
+In order to call these variables, we need to use `theRB`, and much like a method, call `theRB`'s Velocity and set it to a specific value.
+
+```C#
+public class PlayerController : MonoBehaviour{
+
+    public Rigidbody2D theRB;
+
+    // Start is called before the first frame update
+    void Start(){
+        
+    }
+
+    // Update is called once per frame
+    void Update(){
+      theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+    }
+}
+```
+Vector2 is a given directional input, in this situation the raw data from our Horizontal and Vertical inputs, giving a direction for the Velocity to travel in.
+With this, our Player character is able to move about the screen, if it weren't for the fact that the raw inputs that Vector2 recieves is extremely low.
+`GetAxisRaw` basically returns a 0 or 1, depending on if that key has been pressed.
+Because of such a low value, our Player's movement speed is just as low. Moving barely 1 unit per second.
+To change this, we can set up a float variable, which can be given a specific and unchanging value as our set speed.
+
+```C#
+public class PlayerController : MonoBehaviour{
+
+    public Rigidbody2D theRB;
+    public float moveSpeed;
+
+    // Start is called before the first frame update
+    void Start(){
+        
+    }
+
+    // Update is called once per frame
+    void Update(){
+      theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * moveSpeed;
+    }
+}
+```
+For example, in this situation imagine our moveSpeed is set to 5. Now, when we press either a Horizontal or Vertical input, that value will multiply 5, and our character will move 5 units per second.
+Here is a showcase of movement in my current [prototype](MovementTest).
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
