@@ -1,18 +1,18 @@
 # Entry 4
 ##### 3/19/23
 
-Since my last Blog Entry, I have made many impressive and wonderful leaps and breakthroughs concerning my newfound knowledge in Unity and Game Development.
-Previously, I had began a second trial of my learning, taking into consideration how I hadn't felt I had learned enough and starting over. 
-Since then, I have made an entire plan that has helped me improve my time management, while also giving me an improved way to complete the steps I wish to complete in a better manner. 
-For around the first two weeks following my last Blog Entry, I continued to work on my Test Unity file, where I followed the Udemy Course in-depth.
-I finished it around the 3rd of March, and have worked extensively on my real project since then. I've made some progress, though some events have come in the way of such as well.
+Since my last Blog Entry, I have finished the Test file I wished to work on following.
+However, because of many personal issues concerning mental health and other issues, I haven't been able to work much towards my MVP.
+I've made some progress, but it's mainly surface level, and any larger progress will have to be pushed over the following month.
+Thus, in this Blog Entry, I would like to explore some progress made in my Test file of Unity.
 
-In this Blog Entry, however, I would like to go over the more complete version of my Test file. 
-It shares most of the things I have learned since starting it, so it would be much like showing you a current version of my actual game I hope.
-Today, I wish to share my developments on switching scenes, including camera manipulation and mapping for the world that I have learned.
-Switching scenes is a process of sudden shifts between two different areas. For example, when leaving a dungeon in an RPG, you're switching scenes in that case.
-Camera Movement is self explanatory, as it is what allows the player to follow their character as they move about in a 2d or 3d space. 
-The following section goes over the topic of scene transitioning, a large player in any game.
+I would like to explore some very interesting and important content, specifically Switching Scenes, with Camera and Map Manipulation.
+Switching Scenes is integral for any multi-layered game. Switching Scenes includes entering new locations, entering combat, even small things like UI updates are done through scene switching.
+It's a broad concept, that allows for almost any 2D Unity game to function.
+The other concepts of Camera and Map Manipulation fall into a similar category under Scene Switching.
+By manipulating the camera, we can follow the player character for better interaction, better movement, etc.
+Through manipulating our maps, we can easier access other scenes and areas that players should be allowed to go to under the specific circumstances. 
+
 
 ## Switching Scenes
 
