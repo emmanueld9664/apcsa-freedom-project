@@ -136,9 +136,19 @@ To make it easier to read, I cut out the information explained in the Camera sec
 Above we can see three new variables, a Tilemap variable, and two Vector3 variables.
 The Tilemap variable is easy to explain, as it represents the Tilemap that we want to limit the Camera and Player by.
 Both Vector3 variables represent a corner of the chosen Tilemap, and are used to stick the Camera into these closed off boundaries.
+Then, in LateUpdate, you force the position of the Camera to stay within the range of the limits of the chosen Tilemap.
 
 ## Final Notes
-This Blog Entry went over the seventh stage of the Engineering Design Process
+This Blog Entry went over the seventh stage of the Engineering Design Process, improving my prototype as needed. 
+While not exactly the product I wished to have when I began my Freedom Project, I believe I ended up with a product that is still interesting, and personally fun to develop.
+I believe that the two skills I worked the most on since beginning my Freedom Project were having a Growth Mindset and having Creativity.
+- In terms of a Growth Mindset, I understand that I have had many difficulties with managing my time, along with other difficulties I have faced in the past few months.
+Even still, I pushed through those difficulties to make a product that I enjoy, and a product I would gladly show to others.
+- Being Creative is the lifeblood of any game developer, and while the resources are not my own, the way I used them to create an interesting locale to traverse makes it all the more meaningful.
+Being creative is all about how I use the tools I'm given, and I think I used them in a very creative way. 
+
+For now, I believe I will continue to work on the project more, in order to push out a more unique game that has more features and unique interactions that I cna come up with.
+Thank you for your time, have a wonderful day.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
