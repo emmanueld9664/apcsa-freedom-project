@@ -1,4 +1,4 @@
-# Entry 4
+# Entry 4: Testing & Improving the Prototype
 ##### 3/19/23
 
 Since my last Blog Entry, I have made an effort into finishing the Test file I wished to work on following.
@@ -102,7 +102,23 @@ The transitionName variable is set up to be the same as the AreaTransitionName, 
 Thus they all share the same transition name to make it easier to code. 
 If the Player has the same transition name, their position is properly updated to where AreaEntrance is placed on the Unity editors map.
 
-## T
+## Final Notes
+As of this Blog Entry, I am currently on the Testing and Improving stage of the Engineering Design Process, stages 6 and 7 respectively. 
+As I mentioned at the beginning, I definitely could have used my time better, but many things have happened and sometimes there is too much to handle.
+I would like to apologize for having to submit this so late, later than I wish, because I really don't like to abuse the lateness policy on schoolwork, but theres some things we cannot control. 
+In terms of skills I learned during my time working on AreaEnd and AreaEntrance, I improved on my Growth Mindset and Organization.
+- My Mindset had been falling off, especially due to AP Calculus. Yet while working on this project, I was able to be persevere, overcome any thoughts of momentary self-doubt and challenge them with what I believe to be my true strength.
+Overcoming those thoughts allowed me to better work on my project, embracing the failures and accepting them allowed me to better code, and to improve in areas that I had always deemed important.
+- As for my organization, it's all up to how I actually organized items and tools in my hierarchy inside of the Unity editor.
+I wanted to be sure that the more important objects, ones with more than one or two uses would go above the rest, while tools with less uses go lower.
+It was a Hierarchy of Needs, which tool needed more attention at any given time, and which one pulled the rest like Atlas carrying the world on his shoulders.
+
+In my next Blog Entry, I am likely done with my MVP, and have made a project I can deem myself to be proud of. 
+I believe I would like to say now, that regardless of what may happen in the time we're here, that it is important to remember that we are here.
+We are here to live our lives, to obtain dreams and ambitions that we want for ourselves. 
+To be here is to be proud of the things I have done, and right now, I can say that I am.
+So I thank you, for spending your afternoon reading this, and I hope you continue to aspire for the ambitions you've always chased.
+Arrivederci.
 
 [Previous](entry03.md) | [Next](entry05.md)
 
