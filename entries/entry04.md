@@ -77,6 +77,32 @@ Here is how the trigger would look, upon entering, the code checks for the objec
 If tagged as the Player, it loads the next designated scene, while also attaching the areaTransitionName to the Player so that they can return when they enter the next scenes AreaEnd.
 
 ## AreaEntrance
+The next section to go over is our AreaEntrance script, and how it applies to our AreaEnd. 
+The first thing to note is that before creating our AreaEntrance in the world via Unity's editor, our Player simply spawns in the same location they would be relative to the old scene.
+To explain, if the Players coordinates in scene 1 are 25x, 75y when entering AreaEnd, that will be its exact same spawn location in scene 2.
+Despite the fact that the AreaEnd location of scene 2 is in a different location.
+
+This is the purpose of AreaEntrance, to give a location for the Player to spawn in when entering the new scene. 
+Its actually extremely simple to code, as it only requires 3 lines to run properly.
+```C#
+public class areaEntrance : MonoBehaviour
+{
+    public string transitionName;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+       if(transitionName == PlayerController.instance.areaTransitionName){
+            PlayerController.instance.transform.position = transform.position;
+        }
+    }
+}
+```
+The transitionName variable is set up to be the same as the AreaTransitionName, as mentioned, its a collective group of transitions.
+Thus they all share the same transition name to make it easier to code. 
+If the Player has the same transition name, their position is properly updated to where AreaEntrance is placed on the Unity editors map.
+
+## T
 
 [Previous](entry03.md) | [Next](entry05.md)
 
