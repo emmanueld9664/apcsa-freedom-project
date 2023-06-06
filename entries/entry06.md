@@ -36,9 +36,35 @@ A lot of respect goes to Kaan, who was open about having deleted his game accide
 ### SEP Expo
 The SEP Expo, dated May 24th, was another very interesting experience. 
 It was one of the most busy events I'd ever been to, and with that, it was very exciting at the same time. 
-Being able to chat with friens, while also being able to express my passion for my own project to others outside of my class was incredible.
+Being able to chat with friends, while also being able to express my passion for my own project to others outside of my class was incredible.
 
+Most of the people I interacted with I knew, they'd seen me and wished to look at my project. 
+To which I responded with delight, I didn't exactly have an elevator pitch, so what I described came exactly from what I remembered and how I felt concerning my own project.
+I knew what I wanted to convey when presenting, that I wanted my project to be a showcase of my passion for writing, game development, and giving people a reason to smile.
+When the judges came, I was quite afraid. I felt like my body was too shaky, my voice was too squeaky, and my presentation should've been planned beforehand. 
+Yet even still, I made sure to present the project I made, in the way I wanted to present it.
+I gave my experience learning unity, C Sharp, my passion for making others happy, which was my reason for making the game, and my love for writing.
+Not only did I want my presentation to be about what I made, but why I made it.
 
+Overall, I think I did very well concerning the SEP Expo. I had fun, I showcased my own project, and I believe I did a good job with presentations.
+I do have some takeaways, that I would like to share with you now. 
 
+- Improvise, adapt, overcome. Much like before, presenting your project is a lot about improvisation. You can have ideas on what you want to say, but you should really say what's best concerning the current topic. When my video concerned collision, I began to talk about collision, when it reached interactions I talked about those. Be able to flow into these concepts and ideas easily.
+- Be passionate. The most important detail and quality any person can have is being passionate about their work. You need to show that you love what you made, the passion that went into your project and more. In my personal opinion, your project should be a true representation of your passion, interests, and more. So you have to represent that the best you can in your presentation.
+
+### Last Statement
+This Blog Entry marks the end of not only my Freedom Project, but also a closing of the final chapter of my High School years.
+This Blog finishes out the final step of the Engineering Design Process, communicating the results. I believe, after all this, I have done a wonderful job at communicating everything in the way that I felt I had to.
+There are two skills that I have definitely improved on since these two presentations: Communication and Creativity.
+- Communication. I believe this is self-explanatory, for both events, I was able to communicate most of what went into my project, the passion, the effort, and more. My communication skills concerning my project have been immaculate, and have only grown because I do love my project beyond what I expected. 
+- Creativity. While my project may not be the most creative, it is my own desire for helping others, making others smile, that enhances the quality of my project immensely. Creativity is a large part of my project, and as such, I'm glad it was the final skill I improved when working on it.
+
+For now, that is all. I am extremely glad that I spent the time to make this project. It has been an experience I will never forget.
+The largest thanks goes to my best friend, Jan. With even more thanks given out to everyone taking the APCSA class, especially Mr. Mueller. 
+It has been a wonderful three years, and I'm sad to see it go. 
+Below I have linked my original presentation for my class.
+Have a wonderful day, and rest of your life, thank you for reading.
+
+[Presentation](https://docs.google.com/presentation/d/1Pa1qqhDKnhODJbzg8QD90sBo02Ur4FrI31dXsP3DTTM/edit?usp=sharing)
 
 [Previous](entry05.md) | [Home](../README.md)
